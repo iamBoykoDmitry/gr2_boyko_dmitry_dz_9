@@ -142,6 +142,7 @@ img {
     width: 20px;
 }
 .active__link {
+    position: relative;
     font-family: 'Reforma Grotesk Medium';
     font-weight: 500;
     cursor: pointer;
@@ -151,11 +152,13 @@ img {
     text-decoration: none;
 }
 .active__link:after {
+    position: absolute;
     display: block;
     height: 2px;
     background-color:  #FFB300;
-	content: "";
+    content: "";
     width: 20px;
+    left: 30%;
 }
 .header__burger {
     display: none;
